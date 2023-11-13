@@ -1,5 +1,36 @@
-.teste{
-    background-color: blue;
-    width: 200px;
+.one{
+    background-color: #7777ee;
+}
+
+.two{
+    background-color: #5555ff;
+}
+
+.three{
+    background-color: #3333ff;
+}
+
+.rejected {
+    color: red;
+}
+
+.fulfilled {
+    color: green;
+}
+
+.square{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.group-container{
     height: 200px;
+    width: 350px;
+    border-right: 2px solid green;
+    border-bottom: 1px dashed black;
+    border-top: 1px dashed black;
+    border-left: 1px dashed black;
 }
